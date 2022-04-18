@@ -113,6 +113,33 @@ The degree of bias is 0.08236892617971904. The disparate impact is 1.17606248221
 
 
 7. Select 2 samples from each class which were correctly classified by the trained model. Apply GradCam
-and GradCam++ on it and visualise most salient regions being used for prediction. [10 Marks]
+and GradCam++ on it and visualise most salient regions being used for prediction. 
+
+GradCam Incorrectly classified images
+
+![Aspose Words 50618ed9-b1b2-4630-9df0-4f841fa4401b 021](https://user-images.githubusercontent.com/59523992/163761816-5528304c-14eb-42f1-8534-381b8a412c1f.png)
+
+![Aspose Words 50618ed9-b1b2-4630-9df0-4f841fa4401b 020](https://user-images.githubusercontent.com/59523992/163761818-02840811-d9c7-4199-96e9-0e21008a9747.png)
+
+Gradcam Correctly classified images
+
+![Aspose Words 50618ed9-b1b2-4630-9df0-4f841fa4401b 030](https://user-images.githubusercontent.com/59523992/163761884-0abd5aa7-a587-4843-9e18-85c7841981a8.png)
+
+![Aspose Words 50618ed9-b1b2-4630-9df0-4f841fa4401b 031](https://user-images.githubusercontent.com/59523992/163761897-ef6da3c7-959d-4da1-bed2-1a3fd8fa7eb4.png)
+
 8. Select 2 samples from each class which were incorrectly classified by the trained model. Apply GradCam
-and GradCam++ on it and visualise most salient regions being used for prediction. [10 Marks]
+and GradCam++ on it and visualise most salient regions being used for prediction.
+
+GradCam++ Incorrectly classified images
+
+![Aspose Words 50618ed9-b1b2-4630-9df0-4f841fa4401b 041](https://user-images.githubusercontent.com/59523992/163761945-337d19f5-424b-48da-933e-f0a19233c675.png)
+
+![Aspose Words 50618ed9-b1b2-4630-9df0-4f841fa4401b 040](https://user-images.githubusercontent.com/59523992/163761952-1b3ef5ff-cfa7-4585-b935-a84b6229182c.png)
+
+Gradcam++ Correctly classified images
+
+![Aspose Words 50618ed9-b1b2-4630-9df0-4f841fa4401b 050](https://user-images.githubusercontent.com/59523992/163762020-003d3b15-49be-419d-9e8d-e0a1f99d198b.png)
+
+![Aspose Words 50618ed9-b1b2-4630-9df0-4f841fa4401b 051](https://user-images.githubusercontent.com/59523992/163762029-0f295d7d-86d3-4e5a-9562-18c89f27949b.png)
+
+
