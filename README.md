@@ -46,7 +46,7 @@ We can observe that the accuracy is very low in case of bias, cat and dog.
 
 The bias metrics are shown below:
 
-**Confusion Matrix******
+**Confusion Matrix**
 
 ![Aspose Words 50618ed9-b1b2-4630-9df0-4f841fa4401b 015](https://user-images.githubusercontent.com/59523992/163760228-26a34a27-791f-4fb4-aede-a51420222291.png)
 
