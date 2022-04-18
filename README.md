@@ -30,11 +30,11 @@ metrics to see if there is any bias or not.**
 
 **• ALGORITHMIC method: You can alter loss function or use a multi tasking approach to achieve the goal.**
 
-**Results -** Accuracy and Other Bias metrics
+**Results - Accuracy and Other Bias metrics**
 
-In coloured CIFAR images, the loss was 0.7219253182411194 with accuracy
-76.57999992370605 %, however, in gray-scale images, the loss increased to
-0.8316113352775574 with accuracy 72.9200005531311 %.
+In coloured CIFAR images, the loss was **0.7219253182411194** with accuracy
+**76.57999992370605 %**, however, in gray-scale images, the loss increased to
+**0.8316113352775574** with accuracy **72.9200005531311 %**.
 The class-wise accuracy of the gray-test images is shown in Figure 14.
 
 ![Aspose Words 50618ed9-b1b2-4630-9df0-4f841fa4401b 014](https://user-images.githubusercontent.com/59523992/163760193-60501711-c803-4831-932a-b6b066399f45.png)
@@ -46,14 +46,14 @@ We can observe that the accuracy is very low in case of bias, cat and dog.
 
 The bias metrics are shown below:
 
-Confusion Matrix
+**Confusion Matrix******
 
 ![Aspose Words 50618ed9-b1b2-4630-9df0-4f841fa4401b 015](https://user-images.githubusercontent.com/59523992/163760228-26a34a27-791f-4fb4-aede-a51420222291.png)
 
 Figure 15: Confusion matrix of gray test images
 
-Degree of Bias
-The degree of bias is 0.1453470329934533.
+**Degree of Bias**
+The degree of bias is **0.1453470329934533**.
 
 **Disparate Impact**
 The disparate impact is **1.0544391431459281**.
@@ -84,8 +84,8 @@ earlier bird’s, cat’s and dog’s accuracy is increased significantly.
 
 Figure 17: Confusion matrix with data method
 
-The degree of bias is 0.13653043616717847. The disparate impact is
-1.0614388262621224. The new evaluation metric score is 0.10283472377894708.
+The degree of bias is **0.13653043616717847**. The disparate impact is
+**1.0614388262621224**. The new evaluation metric score is **0.10283472377894708**.
 
 **c) Algorithmic method**
 
