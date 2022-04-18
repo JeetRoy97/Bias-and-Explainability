@@ -15,6 +15,23 @@ Evaluation: Perform a 10-class classification and report the performance as foll
 1. Perform 10 class classification using the above neural network, with the final node being a sigmoid
 activation. Keep the loss function as the mean square error. Use the testing set to report accuracy.
 
+2. Test the above model on the testing set of gray-scaled images.
+
+3. Report class-wise accuracy.
+
+4.  Do you think there is any kind of bias in the system? Evaluate the system using 3 different evaluation
+metrics to see if there is any bias or not. 
+
+5. (Bonus) Come up with a new evaluation metric to detect if there is a bias in the system.
+
+6. If you observed any bias in the system, mitigate the bias by:
+
+• DATA method (Pre-Processing): You may use any of the pre-processing technique to achieve your
+aim.
+
+• ALGORITHMIC method: You can alter loss function or use a multi tasking approach to achieve the
+goal.
+
 Results - Accuracy and Other Bias metrics
 
 In coloured CIFAR images, the loss was 0.7219253182411194 with accuracy
@@ -82,24 +99,19 @@ than the previous model. Accuracy is increased and is 81.13999962806702%. The cl
 
 Figure 18: Class-wise accuracy with focal loss
 
-![Aspose Words 50618ed9-b1b2-4630-9df0-4f841fa4401b 019](https://user-images.githubusercontent.com/59523992/163760783-765a4151-265c-42bc-ba8b-8699979ce7e1.png)
-
 Figure 19 shows confusion matrix with focal loss. In this we observe the
 earlier bird’s, cat’s and dog’s accuracy is increased significantly.
 
-Figure 19: Confusion matrix with focal loss
-The degree of bias is 0.08236892617971904. The disparate impact is 1.1760624822122585. 
+![Aspose Words 50618ed9-b1b2-4630-9df0-4f841fa4401b 019](https://user-images.githubusercontent.com/59523992/163760783-765a4151-265c-42bc-ba8b-8699979ce7e1.png)
 
-2. Test the above model on the testing set of gray-scaled images. [10 Marks]
-3. Report class-wise accuracy. [10 Marks]
-4. Do you think there is any kind of bias in the system? Evaluate the system using 3 different evaluation
-metrics to see if there is any bias or not. [10 Marks]
-5. (Bonus) Come up with a new evaluation metric to detect if there is a bias in the system. [10 Marks]
-6. If you observed any bias in the system, mitigate the bias by:
-• DATA method (Pre-Processing): You may use any of the pre-processing technique to achieve your
-aim. [10 Marks]
-• ALGORITHMIC method: You can alter loss function or use a multi tasking approach to achieve the
-goal. [10 Marks]
+Figure 19: Confusion matrix with focal loss
+
+The degree of bias is 0.08236892617971904. The disparate impact is 1.1760624822122585. The new evaluation metric score is 0.06683414639586682.
+
+
+![Capture](https://user-images.githubusercontent.com/59523992/163761191-868bddf8-f9a4-43c4-a587-d44e2915a58b.PNG)
+
+
 7. Select 2 samples from each class which were correctly classified by the trained model. Apply GradCam
 and GradCam++ on it and visualise most salient regions being used for prediction. [10 Marks]
 8. Select 2 samples from each class which were incorrectly classified by the trained model. Apply GradCam
