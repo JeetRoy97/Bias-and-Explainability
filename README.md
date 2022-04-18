@@ -31,7 +31,7 @@ We can observe that the accuracy is very low in case of bias, cat and dog.
 
 The bias metrics are shown below:
 
-a) Confusion Matrix
+Confusion Matrix
 
 ![Aspose Words 50618ed9-b1b2-4630-9df0-4f841fa4401b 015](https://user-images.githubusercontent.com/59523992/163760228-26a34a27-791f-4fb4-aede-a51420222291.png)
 
@@ -67,11 +67,28 @@ earlier bird’s, cat’s and dog’s accuracy is increased significantly.
 
 ![Aspose Words 50618ed9-b1b2-4630-9df0-4f841fa4401b 017](https://user-images.githubusercontent.com/59523992/163760476-e3edf075-2916-4aab-abb5-113d5f41503e.png)
 
-
 Figure 17: Confusion matrix with data method
 
 The degree of bias is 0.13653043616717847. The disparate impact is
 1.0614388262621224. The new evaluation metric score is 0.10283472377894708.
+
+c) Algorithmic method
+
+Changing the loss function to focal loss improves the performance of the model
+than the previous model. Accuracy is increased and is 81.13999962806702%. The class-wise accuracy is shown in Figure 18.
+
+![Aspose Words 50618ed9-b1b2-4630-9df0-4f841fa4401b 018](https://user-images.githubusercontent.com/59523992/163760770-77382e17-2cca-44ab-b627-b8d029188fac.png)
+
+
+Figure 18: Class-wise accuracy with focal loss
+
+![Aspose Words 50618ed9-b1b2-4630-9df0-4f841fa4401b 019](https://user-images.githubusercontent.com/59523992/163760783-765a4151-265c-42bc-ba8b-8699979ce7e1.png)
+
+Figure 19 shows confusion matrix with focal loss. In this we observe the
+earlier bird’s, cat’s and dog’s accuracy is increased significantly.
+
+Figure 19: Confusion matrix with focal loss
+The degree of bias is 0.08236892617971904. The disparate impact is 1.1760624822122585. 
 
 2. Test the above model on the testing set of gray-scaled images. [10 Marks]
 3. Report class-wise accuracy. [10 Marks]
