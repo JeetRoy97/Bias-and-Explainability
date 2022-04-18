@@ -15,10 +15,10 @@ channels as 3.
 **1. Perform 10 class classification using the above neural network, with the final node being a sigmoid
 activation. Keep the loss function as the mean square error. Use the testing set to report accuracy.**
 
-**2. Test the above model on the testing set of gray-scaled images.
+**2. Test the above model on the testing set of gray-scaled images.**
 
-**3. Report class-wise accuracy.
-**
+**3. Report class-wise accuracy.**
+
 **4.  Do you think there is any kind of bias in the system? Evaluate the system using 3 different evaluation
 metrics to see if there is any bias or not.** 
 
