@@ -22,17 +22,15 @@ activation. Keep the loss function as the mean square error. Use the testing set
 **4.  Do you think there is any kind of bias in the system? Evaluate the system using 3 different evaluation
 metrics to see if there is any bias or not.** 
 
-**5. (Bonus) Come up with a new evaluation metric to detect if there is a bias in the system.
-**
-**6. If you observed any bias in the system, mitigate the bias by:
+**5. (Bonus) Come up with a new evaluation metric to detect if there is a bias in the system.**
 
-**• DATA method (Pre-Processing): You may use any of the pre-processing technique to achieve your
-aim.**
+**6. If you observed any bias in the system, mitigate the bias by:**
 
-**• ALGORITHMIC method: You can alter loss function or use a multi tasking approach to achieve the
-goal.**
-=
-Results - Accuracy and Other Bias metrics
+**• DATA method (Pre-Processing): You may use any of the pre-processing technique to achieve your aim.**
+
+**• ALGORITHMIC method: You can alter loss function or use a multi tasking approach to achieve the goal.**
+
+**Results -** Accuracy and Other Bias metrics
 
 In coloured CIFAR images, the loss was 0.7219253182411194 with accuracy
 76.57999992370605 %, however, in gray-scale images, the loss increased to
